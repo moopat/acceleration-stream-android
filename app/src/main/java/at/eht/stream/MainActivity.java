@@ -1,10 +1,10 @@
 package at.eht.stream;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +17,6 @@ import com.getpebble.android.kit.util.PebbleDictionary;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
 
@@ -28,7 +27,7 @@ import java.util.UUID;
  *
  * @author Markus Deutsch
  */
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
     /*
      * Make sure PEBBLE_UUID matches the APP UUID in the settings of your CloudPebble project.
