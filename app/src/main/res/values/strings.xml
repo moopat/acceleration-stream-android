@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pebble Accel Stream</string>
+    <string name="empty">No samples have been received.</string>
+    <string name="count">%s samples received.</string>
+    <string name="action_export">Export Data</string>
+    <string name="retention">Only the last %d samples are kept in memory.</string>
+</resources>
