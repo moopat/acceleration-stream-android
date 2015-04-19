@@ -14,4 +14,4 @@ and [main.c](https://github.com/moopat/acceleration-stream-pebble/blob/master/sr
 
 The WatchApp will show the time and the result (success, error) of the last transmission, whereas the Android app 
 will show the number of Samples received in the current session. By default the last 500 Samples 
-(= 50 seconds of data) are retained.
+(= 50 seconds of data) are retained and available for export to CSV. If you need longer data retention and the possibility to transmit the data to a server check out [acceleration-recorder-android](https://github.com/moopat/acceleration-recorder-android) which was originally forked from here.
